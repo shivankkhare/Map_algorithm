@@ -13,8 +13,7 @@ The Graph is denoted as M through the notebook:
 - M.intersections: contains the list of nodes as x,y positions
 - M.roads: contains a list of the adjacencies of each node
 
-Graph visualization example:
-<img src="images/graph.png" height="500"/>
+
 
 
 Our Node consist of the following fields
@@ -83,4 +82,3 @@ def display_shortest_path(start, goal):
 display_shortest_path(5, 3)
 ```
 
-<img src="images/path.png" alt="Path from 5 to 3 node" height="500"/>
